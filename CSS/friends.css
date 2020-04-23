@@ -1,0 +1,27 @@
+.profile {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #5551FF;
+}
+
+h5 {
+    margin: 20px 0 10px 0;
+    font-size: 12px;
+    color: #5551FF;
+}
+
+.plus-friend {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #5551FF;
+}
+
+.now-listening {
+    font-size: 13px;
+    color: #5551FF;
+    border: #5551FF 2px solid;
+    padding: 6px 12px;
+    border-radius: 14px;
+}
+
+.now-listening span {
+    margin-right: 4px;
+}

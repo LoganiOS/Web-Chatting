@@ -1,0 +1,15 @@
+.status-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.status-bar i{
+    font-size: 13px;
+}
+
+.status-bar .status-bar_battery-lv {
+    margin-left: 5px;
+}
+

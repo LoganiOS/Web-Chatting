@@ -1,0 +1,22 @@
+.bigscreen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, blue, #5551ff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+    display: none;
+    z-index: 9999;
+}
+
+@media screen and (min-width:550px) {
+    .bigscreen {
+        display: flex;
+    }
+}

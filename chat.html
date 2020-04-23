@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/3e041ed8d5.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Chat</title>
+</head>
+<body class="chat_body">
+    <div class="status-bar">
+        <div class="status-bar_time">13:53</div>
+        <div class="status-bar_icons">
+            <i class="fas fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-wifi"></i>
+            <span class="status-bar_battery-lv">67%</span>
+            <i class="fas fa-battery-three-quarters"></i></div>
+    </div>
+    <header class="header">
+        <div class="header-title header-chat">
+            <a href="index.html" class="more"><i class="fas fa-arrow-left fa-2x"></i></a>
+            <h1 class="header_title">국조</h1></div>
+        <div class="header_icons">
+            <span class="header_icon">
+            <i class="fas fa-search"></i></span>
+            <span class="header_icon"><i class="fas fa-cog"></i></span>
+        </div>
+    </header>
+
+    <main class="chat">
+        <ul class="messages">
+            <span class="timestamp">2020년 4월 11일 (금)</span>
+            <li class="incoming-message message">
+                <div class="preview_all">
+                    <div class="preview_photo">
+                    <img src="image/friend_1.png" alt="me" class="m-photo photo">
+                    </div>
+                </div>
+                <div class="message_content">
+                    <div class="message_author">서경일</div>
+                    <div class="message_bubble">취업 축하해!</div>
+                </div>
+            </li>
+            <li class="sent-message message">
+                <div class="message_content">
+                    <div class="content_bubble">고마워! 다음주 금요일에 뭐해?</div>
+                </div>
+            </li> 
+
+            <li class="incoming-message message">
+                <div class="preview_all">
+                    <div class="preview_photo">
+                    <img src="image/friend_1.png" alt="서경일" class="m-photo photo">
+                    </div>
+                </div>
+                <div class="message_content">
+                    <div class="message_author">서경일</div>
+                    <div class="message_bubble">그 날 쉬는데, 밥 먹을래?</div>
+                </div>
+            </li>
+
+        </ul>
+
+    <div class="chat_write-container">
+        <input type="text" placeholder="Send a Message" class="chat_write">
+            <div class="chat_icon-left chat_icon">
+                <i class="far fa-plus-square"></i>
+            </div>
+              <div class="chat_icon-right chat_icon">
+                 <i class="far fa-smile"></i>
+               <i class="fas fa-microphone-alt"></i>
+              </div>
+    </div>
+</main>
+<div class="bigscreen">
+    <span class="bigscreen_text">화면을 줄여주세요!</span>
+</div>
+</body>
+</html>
