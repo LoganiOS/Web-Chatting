@@ -36,7 +36,7 @@
     font-size: 14px;
 }
 
-@keyframes shownavbar {
+/* @keyframes shownavbar {
     from{
         transform: translateY(50px);
     }
@@ -47,4 +47,4 @@
     transform: translateY(80px);
     animation: shownavbar 0.5s ease-in-out forwards; 
     animation-delay: 0.3s;
-}
+} */
